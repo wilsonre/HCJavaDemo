@@ -1,0 +1,9 @@
+{
+  "name": "Heroku Connect Java Demo",
+  "description": "A super basic Java CRUD app to showcase Heroku Connect.",
+  "website": "https://github.com/rt-heroku/HCJavaDemo",
+  "repository": "https://github.com/rt-heroku/HCJavaDemo",
+  "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Wave.svg/133px-Wave.svg.png",
+  "scripts": {},
+  "addons": ["heroku-postgresql", "herokuconnect"]
+}

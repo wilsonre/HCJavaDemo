@@ -27,10 +27,7 @@ public class AccountService
 	
 	@Autowired
 	private AccountRepository accountRepository;
-	
-	@Autowired
-	private MainService mainService;
-	
+		
 	/*
 	 * READ methods
 	 */
@@ -58,12 +55,6 @@ public class AccountService
 		
 	}
 
-//	public List<Account> findByAccount(String account) {
-//		if (logger.isDebugEnabled())
-//			logger.debug("AccountService -> findByLink:" + account);
-//
-//		return accountRepository.findByAccount(account);
-//	}
 	public Account get(int id) {
 		if (logger.isDebugEnabled())
 			logger.debug("Retrieving Account with id:" + id);
